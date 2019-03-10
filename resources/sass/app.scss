@@ -2,6 +2,7 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Lato:200,300,400,600');
 
 // Variables
 @import 'variables';
@@ -15,5 +16,6 @@
 }
 
 // custom
+@import 'partials/common';
 @import 'partials/header';
 @import 'partials/about';
