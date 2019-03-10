@@ -1,3 +1,46 @@
-.red {
-  color: red;
+.header {
+  height: 100vh;
+  width: 100%;
+  color: black;
+  background: white;
+  position: relative;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat";
+
+    h1 {
+      margin: 0;
+      font-size: 60px;
+      font-weight: 300;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 200;
+    }
+  }
+
+  .arrowDown {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    font-size: 25px;
+    color: black;
+  }
+
+  a:hover {
+    color: lightgray;
+    transition: 0.5s;
+  }
 }

@@ -1,3 +1,3 @@
 <div class="">
-  <span class="red"> sono l'about</span>
+  <span class="blue"> sono l'about</span>
 </div>
