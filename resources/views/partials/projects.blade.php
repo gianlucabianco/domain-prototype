@@ -1,3 +1,3 @@
 <div class="">
-  <span class="red">cosa ho fatto</span>
+  <span class="red">cosa ho fatto (carousel)</span>
 </div>

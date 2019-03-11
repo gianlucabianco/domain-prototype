@@ -1,3 +1,3 @@
 <div class="">
-  <span class="red">cosa ho scritto</span>
+  <span class="red">cosa ho scritto (cards)</span>
 </div>
