@@ -12,13 +12,6 @@
       <div class="col-6 testz chart">
 
         <div class="column">
-          <span>90%</span>
-          <div class="skill h90perc">
-          </div>
-          <strong>LEADERSHIP</strong>
-        </div>
-
-        <div class="column">
           <span>85%</span>
           <div class="skill h85perc">
           </div>
@@ -26,17 +19,24 @@
         </div>
 
         <div class="column">
-          <span>80%</span>
-          <div class="skill h80perc">
-          </div>
-          <strong>COMMUNICATION</strong>
-        </div>
-
-        <div class="column">
           <span>75%</span>
           <div class="skill h75perc">
           </div>
           <strong>EMOTIONAL INTELLIGENCE</strong>
+        </div>
+        
+        <div class="column">
+          <span>90%</span>
+          <div class="skill h90perc">
+          </div>
+          <strong>LEADERSHIP</strong>
+        </div>
+
+        <div class="column">
+          <span>80%</span>
+          <div class="skill h80perc">
+          </div>
+          <strong>COMMUNICATION</strong>
         </div>
 
         <div class="column">

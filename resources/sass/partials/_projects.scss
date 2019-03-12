@@ -1,7 +1,7 @@
 #projects {
   height: 100%;
   width: 100%;
-  padding: 75px 0;
+  padding: 75px 0 150px 0;
   color: white;
   font-family: "Lato";
   background: black;
@@ -32,34 +32,12 @@
     i {
       margin: 15px;
       font-size: 25px;
-      color: red;
+      color: darkgray;
     }
-  }
 
-
-
-  .bd-example {
-    height: 100%;
-    width: 100%;
-
-    #carouselExampleCaptions {
-      height: 400px;
-      width: 100%;
-      background: lightgray;
-
-      .carousel-inner {
-
-        .carousel-item {
-
-          img {
-            width: 100%;
-            height: 400px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-          }
-        }
-      }
+    i:hover {
+      color: black;
+      transition: 0.3s;
     }
   }
 }
@@ -72,4 +50,18 @@
 
 .bgLightGray {
   background: lightgray;
+}
+
+.btn-custom {
+  background: lightgray;
+  color: black;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.btn-custom:hover {
+  background: darkgray;
+  transition: 0.3s;
 }
