@@ -5,7 +5,8 @@
   color: black;
   font-family: "Lato";
   text-align: center;
-  background: lightgray;
+  color: white;
+  background: black;
 
   .contactWrapper {
     width: 40%;
@@ -17,7 +18,10 @@
     }
 
     p {
-      margin: 25px 0;
+      margin: 50px 0;
+      // margin: 25px 0;
+      font-size: 22px;
+      color: white;
     }
 
     .form-group {
@@ -25,6 +29,9 @@
       input,
       textarea {
         margin: 20px 0;
+        border-radius: 0;
+        border: 0;
+        background: lightgray;
       }
 
     }

@@ -10811,7 +10811,8 @@ p {
   color: black;
   font-family: "Lato";
   text-align: center;
-  background: lightgray;
+  color: white;
+  background: black;
 }
 
 #contact .contactWrapper {
@@ -10825,20 +10826,27 @@ p {
 }
 
 #contact .contactWrapper p {
-  margin: 25px 0;
+  margin: 50px 0;
+  font-size: 22px;
+  color: white;
 }
 
 #contact .contactWrapper .form-group input,
 #contact .contactWrapper .form-group textarea {
   margin: 20px 0;
+  border-radius: 0;
+  border: 0;
+  background: lightgray;
 }
 
 #footer {
   width: 100%;
-  height: 60px;
+  height: 70px;
   padding: 0 25px;
   color: white;
   background: black;
+  position: relative;
+  border-top: 0.5px solid lightgray;
 }
 
 #footer .footerWrapper {
@@ -10864,6 +10872,16 @@ p {
   color: red;
 }
 
+#footer .footerWrapper .footerLeft a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer .footerWrapper .footerLeft a:hover {
+  transition: 2s;
+  color: red;
+}
+
 #footer .footerWrapper .footerLeft span {
   padding-left: 5px;
   color: lightgray;
@@ -10875,11 +10893,25 @@ p {
 }
 
 #footer .footerWrapper a i {
-  font-size: 25px;
+  font-size: 30px;
   color: lightgray;
 }
 
 #footer .footerWrapper a:hover i {
+  transition: 2s;
+  color: red;
+}
+
+#footer .footerCenter {
+  position: absolute;
+  bottom: 12.5px;
+  left: 50%;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+#footer .footerCenter:hover {
   transition: 2s;
   color: red;
 }

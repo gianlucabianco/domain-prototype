@@ -1,4 +1,5 @@
 <div id="footer">
+  <a class="footerCenter" href="#header"><i class="fas fa-chevron-up"></i></a>
   <div class="footerWrapper">
     <div class="footerLeft">
       <div class="footerLeftUp">
@@ -7,12 +8,11 @@
         <i class="fas fa-heart"></i>
       </div>
       <div class="footerLeftDown">
-        Gianluca Bianco
+        <a href="http://localhost:8000">Gianluca Bianco</a>
         <i class="fab fa-creative-commons"></i>
         <span class="year">2019</span>
       </div>
     </div>
-    <a href="#header"><i class="fas fa-chevron-up"></i></a>
     <a href="https://github.com/gianlucabianco">
       <i class="fab fa-github"></i>
     </a>
