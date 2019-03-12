@@ -6,7 +6,6 @@
         <h3>SOFT SKILLS</h3>
         <p>I'm a career shifter with more than 15 years of experience as Engineer and 10 years of experience in a leadership position.</p>
         <p>I can offer a lot more than code.</p>
-        <p>There it is.</p>
       </div>
       <div class="col-1">
       </div>

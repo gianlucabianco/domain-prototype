@@ -31,3 +31,8 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app'
 });
+
+//rimuovere (riga 36-38):
+$( document ).ready(function() {
+    console.log('jquery funziona');
+});

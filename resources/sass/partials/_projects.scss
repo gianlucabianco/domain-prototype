@@ -1,6 +1,75 @@
 #projects {
-  height: 550px;
+  height: 100%;
   width: 100%;
+  padding: 75px 0;
   color: white;
+  font-family: "Lato";
   background: black;
+
+  h1 {
+    margin-bottom: 75px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 15px 0;
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .tempBg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    background: lightgray;
+
+    i {
+      margin: 15px;
+      font-size: 25px;
+      color: red;
+    }
+  }
+
+
+
+  .bd-example {
+    height: 100%;
+    width: 100%;
+
+    #carouselExampleCaptions {
+      height: 400px;
+      width: 100%;
+      background: lightgray;
+
+      .carousel-inner {
+
+        .carousel-item {
+
+          img {
+            width: 100%;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+          }
+        }
+      }
+    }
+  }
+}
+
+.carousel-indicators {
+  li {
+    color: red;
+  }
+}
+
+.bgLightGray {
+  background: lightgray;
 }

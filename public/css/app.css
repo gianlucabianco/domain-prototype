@@ -10809,6 +10809,7 @@ p {
   width: 100%;
   padding: 75px;
   background: white;
+  font-family: "Lato";
 }
 
 #skills h2 {
@@ -10890,10 +10891,69 @@ p {
 }
 
 #projects {
-  height: 550px;
+  height: 100%;
   width: 100%;
+  padding: 75px 0;
   color: white;
+  font-family: "Lato";
   background: black;
+}
+
+#projects h1 {
+  margin-bottom: 75px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#projects h2 {
+  margin: 15px 0;
+  font-size: 25px;
+}
+
+#projects p {
+  font-size: 10px;
+}
+
+#projects .tempBg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+  background: lightgray;
+}
+
+#projects .tempBg i {
+  margin: 15px;
+  font-size: 25px;
+  color: red;
+}
+
+#projects .bd-example {
+  height: 100%;
+  width: 100%;
+}
+
+#projects .bd-example #carouselExampleCaptions {
+  height: 400px;
+  width: 100%;
+  background: lightgray;
+}
+
+#projects .bd-example #carouselExampleCaptions .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.carousel-indicators li {
+  color: red;
+}
+
+.bgLightGray {
+  background: lightgray;
 }
 
 #blog {
