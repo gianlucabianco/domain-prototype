@@ -10804,6 +10804,104 @@ p {
   margin-top: 25px;
 }
 
+#skills {
+  height: 100%;
+  width: 100%;
+  padding: 75px;
+  background: white;
+}
+
+#skills h2 {
+  margin-bottom: 75px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#skills .testz {
+  height: 400px;
+  width: 100%;
+  padding: 25px;
+}
+
+#skills .testz h3 {
+  margin: 25px 0;
+  font-size: 30px;
+}
+
+#skills .testz p {
+  font-size: 18px;
+}
+
+#skills .chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+  height: 100%;
+}
+
+#skills .chart .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 5);
+}
+
+#skills .chart .column strong {
+  padding-top: 15px;
+  height: 50px;
+  font-size: 12px;
+}
+
+#skills .chart .skill {
+  height: 350px;
+  width: 60px;
+  background: gray;
+}
+
+#skills .chart .h35perc {
+  height: 125px;
+}
+
+#skills .chart .h45perc {
+  height: 150px;
+}
+
+#skills .chart .h55perc {
+  height: 175px;
+}
+
+#skills .chart .h75perc {
+  height: 275px;
+}
+
+#skills .chart .h80perc {
+  height: 300px;
+}
+
+#skills .chart .h85perc {
+  height: 325px;
+}
+
+#skills .chart .h90perc {
+  height: 350px;
+}
+
+#projects {
+  height: 550px;
+  width: 100%;
+  color: white;
+  background: black;
+}
+
+#blog {
+  height: 550px;
+  width: 100%;
+  background: white;
+}
+
 #contact {
   padding: 75px 0;
   height: 100%;

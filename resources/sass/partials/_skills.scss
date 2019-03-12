@@ -1,0 +1,84 @@
+#skills {
+  height: 100%;
+  width: 100%;
+  padding: 75px;
+  background: white;
+
+  h2 {
+    margin-bottom: 75px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .testz {
+    height: 400px;
+    width: 100%;
+    padding: 25px;
+
+    h3 {
+      margin: 25px 0;
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    height: 100%;
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: calc(100% / 5);
+
+      strong {
+        padding-top: 15px;
+        height: 50px;
+        font-size: 12px;
+      }
+    }
+
+    .skill {
+      height: 350px;
+      width: 60px;
+      background: gray;
+    }
+
+    .h35perc {
+      height: 125px;
+    }
+
+    .h45perc {
+      height: 150px;
+    }
+
+    .h55perc {
+      height: 175px;
+    }
+
+    .h75perc {
+      height: 275px;
+    }
+
+    .h80perc {
+      height: 300px;
+    }
+
+    .h85perc {
+      height: 325px;
+    }
+
+    .h90perc {
+      height: 350px;
+    }
+  }
+}
