@@ -1,4 +1,4 @@
-<div id="skills">
+ <div id="skills">
   <div class="container">
     <h2 class="red">A FEW NUMBERS</h2>
 

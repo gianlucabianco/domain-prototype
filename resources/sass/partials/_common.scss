@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+// :::::::::: COMMON TAGS ::::::::::
+
 p {
   font-size: 18px;
   font-family: "Lato";
@@ -17,11 +19,33 @@ h1 {
   font-weight: 200;
 }
 
+h2 {
+  font-family: "Lato";
+  font-size: 70px;
+  line-height: 70px;
+
+  span {
+    display: block;
+  }
+}
+
 h5 {
   margin: 0;
   font-size: 20px;
   font-weight: 200;
 }
+
+// :::::::::: MARGINS ::::::::::
+
+.mrgnTp50 {
+  margin-top: 50px;
+}
+
+.mrgnLft100 {
+  margin-left: 100px;
+}
+
+// :::::::::: COMMON CLASSESS ::::::::::
 
 .myButton {
   width: 200px;

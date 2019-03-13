@@ -10679,10 +10679,28 @@ h1 {
   font-weight: 200;
 }
 
+h2 {
+  font-family: "Lato";
+  font-size: 70px;
+  line-height: 70px;
+}
+
+h2 span {
+  display: block;
+}
+
 h5 {
   margin: 0;
   font-size: 20px;
   font-weight: 200;
+}
+
+.mrgnTp50 {
+  margin-top: 50px;
+}
+
+.mrgnLft100 {
+  margin-left: 100px;
 }
 
 .myButton {
@@ -10726,8 +10744,8 @@ h5 {
 }
 
 #header a:hover {
-  color: darkgray;
-  transition: 0.3s;
+  color: red;
+  transition: 1s;
 }
 
 #about {
@@ -10735,18 +10753,6 @@ h5 {
   height: 100%;
   padding: 75px 0;
   background: white;
-}
-
-.aboutTitle {
-  width: 100%;
-  margin-left: 100px;
-  line-height: 65px;
-  font-family: "Lato";
-  font-size: 60px;
-}
-
-.mrgTp50 {
-  margin-top: 50px;
 }
 
 #merits {
