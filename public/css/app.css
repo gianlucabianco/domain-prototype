@@ -10729,22 +10729,19 @@ a {
 }
 
 .myButton {
-  width: 200px;
-  height: 50px;
   padding: 10px 25px 12px 25px;
   border: 2px solid black;
   font-family: "Lato";
   font-size: 18px;
   color: black;
-}
-
-.myButton a {
   text-decoration: none;
 }
 
-.mybutton:hover {
+.myButton:hover {
   color: white;
   background: black;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 #header {
@@ -10964,8 +10961,15 @@ a {
 
 #blog {
   width: 100%;
-  height: 550px;
+  height: 100%;
+  padding: 120px 0;
   background: white;
+}
+
+#blog p {
+  width: 75%;
+  margin: 0;
+  padding: 25px 0;
 }
 
 #contact {
