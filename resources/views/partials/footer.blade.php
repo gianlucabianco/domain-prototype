@@ -1,5 +1,7 @@
 <div id="footer">
-  <a class="footerCenter" href="#header"><i class="fas fa-chevron-up"></i></a>
+  <a class="footerCenter" href="#header">
+    <i class="fas fa-chevron-up"></i>
+  </a>
   <div class="footerWrapper">
     <div class="footerLeft">
       <div class="footerLeftUp">

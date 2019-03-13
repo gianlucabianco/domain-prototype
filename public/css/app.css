@@ -10994,7 +10994,8 @@ a {
 }
 
 #contact .contactWrapper p {
-  margin: 50px 0;
+  width: 75%;
+  margin: 50px auto;
   font-size: 22px;
   color: white;
 }
@@ -11046,7 +11047,7 @@ a {
 }
 
 #footer .footerWrapper .footerLeft a:hover {
-  transition: 2s;
+  transition: 0.5s;
   color: red;
 }
 
@@ -11066,13 +11067,13 @@ a {
 }
 
 #footer .footerWrapper a:hover i {
-  transition: 2s;
+  transition: 0.5s;
   color: red;
 }
 
 #footer .footerCenter {
   position: absolute;
-  bottom: 12.5px;
+  bottom: 50px;
   left: 50%;
   font-size: 25px;
   text-decoration: none;
@@ -11080,7 +11081,7 @@ a {
 }
 
 #footer .footerCenter:hover {
-  transition: 2s;
+  transition: 0.5s;
   color: red;
 }
 

@@ -38,7 +38,7 @@
       }
 
       a:hover {
-        transition: 2s;
+        transition: 0.5s;
         color: red;
       }
 
@@ -59,7 +59,7 @@
 
     a:hover {
       i {
-        transition: 2s;
+        transition: 0.5s;
         color: red;
       }
     }
@@ -67,8 +67,7 @@
 
   .footerCenter {
     position: absolute;
-    bottom: 12.5px;
-    // bottom: 7.5px;
+    bottom: 50px;
     left: 50%;
     font-size: 25px;
     text-decoration: none;
@@ -76,7 +75,7 @@
   }
 
   .footerCenter:hover {
-    transition: 2s;
+    transition: 0.5s;
     color: red;
   }
 
