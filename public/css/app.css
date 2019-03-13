@@ -10679,20 +10679,41 @@ h1 {
   font-weight: 200;
 }
 
-h2 {
+h2,
+h3,
+h4 {
   font-family: "Lato";
+}
+
+h2 span,
+h3 span,
+h4 span {
+  display: block;
+}
+
+h2 {
   font-size: 70px;
   line-height: 70px;
 }
 
-h2 span {
-  display: block;
+h3 {
+  font-size: 45px;
+  line-height: 1.25;
+}
+
+h4 {
+  margin: 25px 0;
+  font-size: 30px;
 }
 
 h5 {
   margin: 0;
   font-size: 20px;
   font-weight: 200;
+}
+
+a {
+  text-decoration: none;
 }
 
 .mrgnTp50 {
@@ -10703,19 +10724,32 @@ h5 {
   margin-left: 100px;
 }
 
+.pddng25 {
+  padding: 25px;
+}
+
 .myButton {
   width: 200px;
   height: 50px;
-  border: 1px solid white;
+  padding: 10px 25px 12px 25px;
+  border: 2px solid black;
   font-family: "Lato";
-  font-weight: 200;
-  font-size: 16px;
+  font-size: 18px;
+  color: black;
+}
+
+.myButton a {
+  text-decoration: none;
+}
+
+.mybutton:hover {
   color: white;
+  background: black;
 }
 
 #header {
-  height: 100vh;
   width: 100%;
+  height: 100vh;
   color: white;
   background: black;
   position: relative;
@@ -10726,8 +10760,8 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
   width: 100%;
+  height: 100%;
   font-family: "Montserrat";
 }
 
@@ -10767,7 +10801,6 @@ h5 {
   width: 33.33%;
   padding-top: 33.33%;
   position: relative;
-  text-decoration: none;
   color: white;
   background: linear-gradient(to bottom left, #ffffff 0%, #000000 100%);
 }
@@ -10789,17 +10822,17 @@ h5 {
   opacity: 0.3;
 }
 
-#merits a .ovelrayLayer .test p {
+#merits a .ovelrayLayer .meritCard p {
   color: white;
 }
 
-#merits a .test {
+#merits a .meritCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
   width: 100%;
+  height: 100%;
   padding: 75px;
   position: absolute;
   top: 0;
@@ -10810,19 +10843,14 @@ h5 {
   font-family: "Lato";
 }
 
-#merits a .test span {
-  font-size: 40px;
-  line-height: 45px;
-  color: white;
-}
-
-#merits a .test p {
+#merits a .meritCard p {
   margin-top: 25px;
+  width: 75%;
 }
 
 #skills {
-  height: 100%;
   width: 100%;
+  height: 100%;
   padding: 75px;
   background: white;
   font-family: "Lato";
@@ -10830,23 +10858,8 @@ h5 {
 
 #skills h2 {
   margin-bottom: 75px;
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
-}
-
-#skills .testz {
-  height: 400px;
-  width: 100%;
-  padding: 25px;
-}
-
-#skills .testz h3 {
-  margin: 25px 0;
-  font-size: 30px;
-}
-
-#skills .testz p {
-  font-size: 18px;
 }
 
 #skills .chart {
@@ -10873,8 +10886,8 @@ h5 {
 }
 
 #skills .chart .skill {
-  height: 350px;
   width: 60px;
+  height: 350px;
 }
 
 #skills .chart .h35perc {
@@ -10905,6 +10918,10 @@ h5 {
   height: 350px;
 }
 
+#skills .projectsTitle {
+  margin: 50px 0;
+}
+
 .bgDark {
   background: darkgray;
 }
@@ -10914,81 +10931,47 @@ h5 {
 }
 
 #projects {
-  height: 100%;
   width: 100%;
-  padding: 75px 0 150px 0;
-  color: white;
-  font-family: "Lato";
-  background: black;
-}
-
-#projects h1 {
-  margin-bottom: 75px;
-  font-size: 40px;
-  text-align: center;
-}
-
-#projects h2 {
-  margin: 15px 0;
-  font-size: 25px;
-}
-
-#projects p {
-  font-size: 10px;
-}
-
-#projects .tempBg {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
   height: 100%;
-  width: 100%;
-  background: lightgray;
-}
-
-#projects .tempBg i {
-  margin: 15px;
-  font-size: 25px;
-  color: darkgray;
-}
-
-#projects .tempBg i:hover {
-  color: black;
-  transition: 0.3s;
-}
-
-.carousel-indicators li {
-  color: red;
-}
-
-.bgLightGray {
-  background: lightgray;
-}
-
-.btn-custom {
-  background: lightgray;
   color: black;
 }
 
-.btn-custom a {
-  text-decoration: none;
+#projects .projectCard {
+  width: 100%;
+  height: 320px;
+  padding: 75px;
 }
 
-.btn-custom:hover {
-  background: darkgray;
-  transition: 0.3s;
+#projects .projectCard h4 {
+  margin: 0;
+}
+
+#projects .bg1 {
+  background: #f4f4f4;
+}
+
+#projects .bg2 {
+  background: #e2e2e2;
+}
+
+#projects .bg3 {
+  background: #9b9b9b;
+}
+
+.projectRight p {
+  margin: 0 0 35px 0;
 }
 
 #blog {
-  height: 550px;
   width: 100%;
+  height: 550px;
   background: white;
 }
 
 #contact {
   padding: 75px 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   color: black;
   font-family: "Lato";
   text-align: center;

@@ -1,23 +1,62 @@
 <div id="projects">
-  <div class="container">
-    <h1>COSA HO FATTO</h1>
-    <div class="row">
-      <div class="col-1" style="display: flex; align-self: center; height: 100%; width: 100%; font-size: 35px">
-        <strong> < </strong>
-      </div>
-      <div class="col-5" style="color: white">
-        <h2>TITOLO DEL PROGETTO</h2>
-        <p style="color: white; font-size: 18px">Questa è la descrizione del progetto. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-        <button type="button" name="button" class="btn btn-custom"><a href="#vaiAllaDemoDelProgetto"  style="color: white">Prova una demo del progetto</a></button>
-      </div>
-      <div class="col-5">
-        <div class="tempBg">
-          <a href="#vaiAlGitHubDelProgetto" style="color: white"><i class="fab fa-github"></i></a>
+  <!-- ATTENZIONE:
+  STRUTTURA DELLE CARD TEMPORANEA.
+  REFACTORING IN SEDE DI CODING DEGLI EFFETTI -->
+
+  <div class="projectCard bg1">
+    <div class="container">
+      <div class="row">
+        <div class="projectLeft col-5">
+          <h4>
+            <span>Questo è il titolo</span>
+            <span>di un progetto.</span>
+          </h4>
         </div>
-      </div>
-      <div class="col-1" style="display: flex; align-self: center; height: 100%; width: 100%; font-size: 35px">
-        <strong> > </strong>
       </div>
     </div>
   </div>
+
+
+  <div class="projectCard bg2">
+    <div class="container">
+      <div class="row">
+        <div class="projectLeft col-5">
+          <h4>
+            <span>Questo è il titolo</span>
+            <span>di un progetto.</span>
+          </h4>
+        </div>
+        <div class="projectRight col-7">
+          <p>Questa è la descrizione di un progetto. (on hover)
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#" class="myButton">questo è un bottone</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="projectCard bg3">
+    <div class="container">
+      <div class="row">
+        <div class="projectLeft col-5">
+          <h4>
+            <span>Questo è il titolo</span>
+            <span>di un progetto.</span>
+            <small>(che avrà un overlay)</small>
+          </h4>
+        </div>
+        <div class="projectRight col-7">
+          <p style="color: white">Questa è la descrizione di un progetto. (on hover + overlay)
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#">questo è un bottone</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 </div>
