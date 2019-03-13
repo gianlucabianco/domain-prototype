@@ -1,0 +1,40 @@
+
+// :::::::::::::: ANIMATION ::::::::::::::
+
+.blueDot {
+  fill: rgba(255, 255, 255, 0.8);
+  // fill: rgba(62, 130, 247, 0.8);
+}
+
+.grayDot {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.greenDot {
+  fill: rgba(255, 255, 255, 0.8);
+  // fill: rgba(45, 169, 79, 0.8);
+}
+
+.yellowDot {
+  fill: rgba(255, 255, 255, 0.8);
+  // fill: rgba(253, 189, 0, 0.8);
+}
+
+.redDot {
+  fill: rgba(255, 255, 255, 0.8);
+  // fill: rgba(237, 65, 45, 0.8);
+}
+
+.purpleDot {
+  fill: rgba(255, 255, 255, 0.8);
+  // fill: rgba(123, 70, 254, 0.8);
+}
+
+svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 40%;
+  transform: translateZ(0px);
+}

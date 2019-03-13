@@ -10660,17 +10660,48 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.blueDot {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.grayDot {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.greenDot {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.yellowDot {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.redDot {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.purpleDot {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 40%;
+  -webkit-transform: translateZ(0px);
+          transform: translateZ(0px);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-p {
-  font-size: 18px;
-  font-family: "Lato";
-  font-weight: 200;
-  color: rgba(0, 0, 0, 0.6);
+body {
+  overflow-x: hidden;
 }
 
 h1 {
@@ -10710,6 +10741,13 @@ h5 {
   margin: 0;
   font-size: 20px;
   font-weight: 200;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 a {
