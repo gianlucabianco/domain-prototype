@@ -5,7 +5,11 @@ sarà da fare un refactoring in sede di coding degli effetti. -->
 
  <div id="skills">
   <div class="container">
-    <h2>A FEW NUMBERS</h2>
+    <div id="skillsTitle" class="animated">
+      <h2 class="beforeScroll" >A FEW NUMBERS</h2>
+    </div>
+    <!-- <h2>A FEW NUMBERS</h2> -->
+
 
     <!-- ::::::::: HARD SKILLS ::::::::: -->
 
@@ -48,27 +52,27 @@ sarà da fare un refactoring in sede di coding degli effetti. -->
         </div>
 
       </div>
-      <div class="col-1">
-      </div>
-      <div class="col-5 pddng25">
-        <h4>HARD SKILLS</h4>
-        <p>As a Developer, my core is the front-end, with extra attention for UX/UI details.</p>
-        <p>As an Engineer, I love the challenge of solving hard problems. I feel comfortable in the Back-end side of Development.</p>
-        <p>As a Tech Enthusiast, I look straight to the future. <br> I'm a curious developer who constantly look out for new technologies to thrive in a competitive market.</p>
+      <div class="col-5 offset-1 pddng25 animated">
+        <div class="beforeScroll">
+          <h4>HARD SKILLS</h4>
+          <p>As a Developer, my core is the front-end, with extra attention for UX/UI details.</p>
+          <p>As an Engineer, I love the challenge of solving hard problems. I feel comfortable in the Back-end side of Development.</p>
+          <p>As a Tech Enthusiast, I look straight to the future. <br> I'm a curious developer who constantly look out for new technologies to thrive in a competitive market.</p>
+        </div>
       </div>
     </div>
 
 <!-- ::::::::: SOFT SKILLS ::::::::: -->
 
     <div class="row">
-      <div class="col-5 pddng25">
-        <h4>SOFT SKILLS</h4>
-        <p>I'm a career shifter with about 15 years of experience as Engineer and almost 10 years of experience in a leadership position.</p>
-        <p>I can offer a lot more than code.</p>
+      <div class="col-5 pddng25 animated">
+        <div class="beforeScroll">
+          <h4>SOFT SKILLS</h4>
+          <p>I'm a career shifter with about 15 years of experience as Engineer and almost 10 years of experience in a leadership position.</p>
+          <p>I can offer a lot more than code.</p>
+        </div>
       </div>
-      <div class="col-1">
-      </div>
-      <div class="col-6 pddng25 chart">
+      <div class="col-6  offset-1 pddng25 chart">
 
         <div class="column">
           <span>85%</span>
@@ -110,7 +114,10 @@ sarà da fare un refactoring in sede di coding degli effetti. -->
 
     <!-- ::::::::: END SKILLS SECTION ::::::::: -->
 
-    <h2 class="projectsTitle">AND A FEW PROJECTS</h2>
+    <div id="projectsTitle" class="animated">
+      <h2 class="beforeScroll projectsTitle" >AND A FEW PROJECTS</h2>
+    </div>
+    <!-- <h2 class="projectsTitle">AND A FEW PROJECTS</h2> -->
 
   </div>
 </div>

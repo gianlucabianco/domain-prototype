@@ -37,16 +37,40 @@ const app = new Vue({
 // :::::::: ANIMATIONS ::::::::
 // from header to second section
 $("#toNextSectionArrow").click(function() {
+
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#about").offset().top
-    }, 1000);
+    }, 1500);
+
 });
 
-// from this href to header
+// from this anchor to header
 $("#toHeaderArrow").click(function() {
 
   $([document.documentElement, document.body]).animate({
       scrollTop: $("#header").offset().top
-  }, 2000);
+  }, 3000);
+
+});
+
+// return true if the DOM element is in the Viewport
+$.fn.isInViewport = function() {
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+
+  return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
+$(window).on('resize scroll', function() {
+  $('.animated').each(function() {
+
+    if ($(this).isInViewport()) {
+      $(this).children().addClass('afterScroll');
+    }
+
+  });
 
 });

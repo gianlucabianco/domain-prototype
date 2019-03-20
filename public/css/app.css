@@ -10840,27 +10840,6 @@ a {
   background: linear-gradient(to bottom left, #ffffff 0%, #000000 100%);
 }
 
-#merits a .ovelrayLayer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  z-index: 9999;
-  -webkit-animation-name: opacity_animation;
-          animation-name: opacity_animation;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  opacity: 0.3;
-}
-
-#merits a .ovelrayLayer .meritCard p {
-  color: white;
-}
-
 #merits a .meritCard {
   display: flex;
   flex-direction: column;
@@ -10879,8 +10858,31 @@ a {
 }
 
 #merits a .meritCard p {
+  display: none;
   margin-top: 25px;
   width: 75%;
+}
+
+#merits a .meritCard:hover {
+  z-index: 0;
+  background: black;
+  opacity: 0.4;
+  transition: 1s;
+}
+
+#merits a .meritCard:hover h3 {
+  position: relative;
+}
+
+#merits a .meritCard:hover p {
+  display: block;
+  position: relative;
+  z-index: 2;
+  color: white;
+  opacity: 1;
+  -webkit-animation: fadeEffect 2s;
+          animation: fadeEffect 2s;
+  transition: 2s;
 }
 
 #skills {
@@ -11121,5 +11123,72 @@ a {
 #footer .footerCenter:hover {
   transition: 0.5s;
   color: red;
+}
+
+.animated {
+  position: relative;
+}
+
+/*il contenuto di BeforeScroll è nascosto di default*/
+
+.beforeScroll {
+  display: none;
+}
+
+/*Dopo aver scrollato (vedi app.js - riga 57) questa classe rende il contenuto del div visibile*/
+
+.afterScroll {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  -webkit-animation: fadeEffect 2s;
+          animation: fadeEffect 2s;
+  /* tempo di animazione corretto: */
+  /* animation: fadeEffect 1.25s; */
+}
+
+@-webkit-keyframes fadeEffect {
+  0% {
+    opacity: 0;
+    bottom: -150px;
+  }
+
+  100% {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+
+@keyframes fadeEffect {
+  0% {
+    opacity: 0;
+    bottom: -150px;
+  }
+
+  100% {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+
+#aboutTitle {
+  height: 220px;
+}
+
+#aboutDescription {
+  margin-top: 50px;
+  height: 170px;
+}
+
+#skillsTitle {
+  margin-top: 75px;
+  height: 70px;
+}
+
+#projectsTitle {
+  margin-top: 75px;
+  height: 50px;
 }
 

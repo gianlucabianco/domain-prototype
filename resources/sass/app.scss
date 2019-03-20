@@ -25,3 +25,50 @@
 @import 'partials/blog';
 @import 'partials/contact';
 @import 'partials/footer';
+
+//ANIMATIONS
+.animated {
+  position: relative;
+}
+
+/*il contenuto di BeforeScroll è nascosto di default*/
+.beforeScroll {
+  display: none;
+}
+
+/*Dopo aver scrollato (vedi app.js - riga 57) questa classe rende il contenuto del div visibile*/
+.afterScroll {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  animation: fadeEffect 2s;
+  /* tempo di animazione corretto: */
+  /* animation: fadeEffect 1.25s; */
+}
+
+@keyframes fadeEffect {
+  0% { opacity: 0; bottom: -150px; }
+  100% { opacity: 1; bottom: 0px; }
+}
+
+// animations wrapper heights - MIND MEDIAQUERIES ! ! !
+#aboutTitle {
+  height: 220px;
+}
+
+#aboutDescription {
+  margin-top: 50px;
+  height: 170px;
+}
+
+#skillsTitle {
+  margin-top: 75px;
+  height: 70px;
+}
+
+#projectsTitle {
+  margin-top: 75px;
+  height: 50px;
+}

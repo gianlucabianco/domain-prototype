@@ -16,27 +16,6 @@
     color: white;
     background: linear-gradient(to bottom left, #ffffff 0%, #000000 100%);
 
-    .ovelrayLayer {
-      // display: none;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: black;
-      z-index: 9999; //temp
-      animation-name: opacity_animation;
-      animation-iteration-count: 1;
-      animation-duration: 0.5s;
-      opacity: 0.3;
-
-      .meritCard {
-        p {
-          color: white;
-        }
-      }
-    }
-
     .meritCard {
       display: flex;
       flex-direction: column;
@@ -54,8 +33,31 @@
       font-family: "Lato";
 
       p {
+        display: none;
         margin-top: 25px;
         width: 75%;
+      }
+    }
+
+    .meritCard:hover {
+      z-index: 0;
+      background: black;
+      opacity: 0.4;
+      transition: 1s;
+
+      h3 {
+        position: relative;
+      }
+
+
+      p {
+        display: block;
+        position: relative;
+        z-index: 2;
+        color: white;
+        opacity: 1;
+        animation: fadeEffect 2s;
+        transition: 2s;
       }
     }
   }
