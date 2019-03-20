@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <h2>
-          <span class="mrgnLft100">Questo è</span >
+        <span class="mrgnLft100">Questo è</span >
         <span class="mrgnLft100">un bel titolo</span >
         <span class="mrgnLft100">(e questa è la sua terza riga)</span >
       </h2>

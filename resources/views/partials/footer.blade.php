@@ -1,5 +1,5 @@
 <div id="footer">
-  <a class="footerCenter" href="#header">
+  <a id="toHeaderArrow" class="footerCenter" href="#">
     <i class="fas fa-chevron-up"></i>
   </a>
   <div class="footerWrapper">

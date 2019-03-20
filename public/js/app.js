@@ -48999,10 +48999,20 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 
 var app = new Vue({
   el: '#app'
-}); //rimuovere (riga 36-38):
+}); // :::::::: CUSTOM ::::::::
+// :::::::: ANIMATIONS ::::::::
+// from header to second section
 
-$(document).ready(function () {
-  console.log('jquery funziona');
+$("#toNextSectionArrow").click(function () {
+  $([document.documentElement, document.body]).animate({
+    scrollTop: $("#about").offset().top
+  }, 1000);
+}); // from this href to header
+
+$("#toHeaderArrow").click(function () {
+  $([document.documentElement, document.body]).animate({
+    scrollTop: $("#header").offset().top
+  }, 2000);
 });
 
 /***/ }),

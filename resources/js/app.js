@@ -32,7 +32,21 @@ const app = new Vue({
     el: '#app'
 });
 
-//rimuovere (riga 36-38):
-$( document ).ready(function() {
-    console.log('jquery funziona');
+// :::::::: CUSTOM ::::::::
+
+// :::::::: ANIMATIONS ::::::::
+// from header to second section
+$("#toNextSectionArrow").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#about").offset().top
+    }, 1000);
+});
+
+// from this href to header
+$("#toHeaderArrow").click(function() {
+
+  $([document.documentElement, document.body]).animate({
+      scrollTop: $("#header").offset().top
+  }, 2000);
+
 });
