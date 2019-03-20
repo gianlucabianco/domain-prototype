@@ -16,35 +16,35 @@ sarà da fare un refactoring in sede di coding degli effetti. -->
     <div class="row">
       <div class="col-6 pddng25 chart">
 
-        <div class="column">
+        <div class="beforeScroll">
           <span>80%</span>
           <div class="skill h80perc bgDark">
           </div>
           <strong>HTML <br> CSS</strong>
         </div>
 
-        <div class="column">
+        <div class="beforeScroll">
           <span>75%</span>
           <div class="skill h75perc bgDark">
           </div>
           <strong>JAVASCRIPT <br> JQUERY</strong>
         </div>
 
-        <div class="column">
+        <div class="beforeScroll">
           <span>55%</span>
           <div class="skill h55perc bgDark">
           </div>
           <strong>PHP</strong>
         </div>
 
-        <div class="column">
+        <div class="beforeScroll">
           <span>45%</span>
           <div class="skill h45perc bgDark">
           </div>
           <strong>LAMP</strong>
         </div>
 
-        <div class="column">
+        <div class="beforeScroll">
           <span>35%</span>
           <div class="skill h35perc bgDark">
           </div>
@@ -72,37 +72,37 @@ sarà da fare un refactoring in sede di coding degli effetti. -->
           <p>I can offer a lot more than code.</p>
         </div>
       </div>
-      <div class="col-6  offset-1 pddng25 chart">
+      <div class="col-6 offset-1 pddng25 chart">
 
-        <div class="column">
+        <div class="beforeScroll">
           <span>85%</span>
           <div class="skill h85perc bgBright">
           </div>
           <strong>TEAM <br> WORKING</strong>
         </div>
 
-        <div class="column">
+        <div class="beforeScroll">
           <span>75%</span>
           <div class="skill h75perc bgBright">
           </div>
           <strong>EMOTIONAL INTELLIGENCE</strong>
         </div>
 
-        <div class="column">
+        <div class="beforeScroll">
           <span>90%</span>
           <div class="skill h90perc bgBright">
           </div>
           <strong>LEADERSHIP</strong>
         </div>
 
-        <div class="column">
+        <div class="beforeScroll">
           <span>80%</span>
           <div class="skill h80perc bgBright">
           </div>
           <strong>COMMUNICATION</strong>
         </div>
 
-        <div class="column">
+        <div class="beforeScroll">
           <span>85%</span>
           <div class="skill h85perc bgBright">
           </div>

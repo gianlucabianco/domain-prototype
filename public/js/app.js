@@ -49030,6 +49030,13 @@ $(window).on('resize scroll', function () {
     }
   });
 });
+$(window).on('resize scroll', function () {
+  $('.chart').each(function () {
+    if ($(this).isInViewport()) {
+      $(this).children().addClass('column');
+    }
+  });
+});
 
 /***/ }),
 

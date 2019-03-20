@@ -53,6 +53,12 @@
   100% { opacity: 1; bottom: 0px; }
 }
 
+@keyframes skillBars {
+  0% { transform-origin: bottom; transform: scaleY(0); color: white;}
+  70%  { transform-origin: bottom; transform: scaleY(0.7); color: white;}
+  100% { transform-origin: bottom; transform: scaleY(1); color: black;}
+}
+
 // animations wrapper heights - MIND MEDIAQUERIES ! ! !
 #aboutTitle {
   height: 220px;
