@@ -1,15 +1,13 @@
 <!-- attenzione:
 le classi assegnate sono provvisorie (es. perc, bg),
 servono a dare un idea grafica e statica del risultato finale.
-sarà da fare un refactoring in sede di coding degli effetti. -->
+sarà da fare un refactoring quando si lavora alla parte responsive. -->
 
  <div id="skillsSection">
   <div class="container">
     <div id="skillsTitleAnimation" class="animated">
       <h2 class="beforeScroll" >A FEW NUMBERS</h2>
     </div>
-    <!-- <h2>A FEW NUMBERS</h2> -->
-
 
     <!-- ::::::::: HARD SKILLS ::::::::: -->
 
@@ -117,7 +115,6 @@ sarà da fare un refactoring in sede di coding degli effetti. -->
     <div id="projectsTitleAnimation" class="animated">
       <h2 class="beforeScroll projectsTitle" >AND A FEW PROJECTS</h2>
     </div>
-    <!-- <h2 class="projectsTitle">AND A FEW PROJECTS</h2> -->
 
   </div>
 </div>
