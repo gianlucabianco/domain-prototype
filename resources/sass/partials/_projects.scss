@@ -1,5 +1,3 @@
-// ATTENZIONE
-// OVERLAY SU HOVER DA INSERIRE
 
 #projectsSection {
   width: 100%;
@@ -15,6 +13,38 @@
         margin: 0;
       }
 
+      p {
+        display: none;
+      }
+
+      a {
+        display: none;
+      }
+
+    }
+
+    .projectCard:hover {
+      opacity: 0.8;
+      background: red;
+      transition: 3s;
+
+      h4 {
+        position: relative;
+      }
+
+      p {
+        display: block;
+        position: relative;
+        animation: fadeEffect 2s;
+        transition: 2s;
+      }
+
+      a {
+        display: block;
+        position: relative;
+        animation: fadeEffect 2s;
+        transition: 2s;
+      }
     }
     // ::: temp :::
 

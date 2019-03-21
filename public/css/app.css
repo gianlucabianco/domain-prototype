@@ -10767,6 +10767,7 @@ a {
 }
 
 .myButton {
+  width: 200px;
   padding: 10px 25px 12px 25px;
   border: 2px solid black;
   font-family: "Lato";
@@ -10983,6 +10984,40 @@ a {
 
 #projectsSection .projectCard h4 {
   margin: 0;
+}
+
+#projectsSection .projectCard p {
+  display: none;
+}
+
+#projectsSection .projectCard a {
+  display: none;
+}
+
+#projectsSection .projectCard:hover {
+  opacity: 0.8;
+  background: red;
+  transition: 3s;
+}
+
+#projectsSection .projectCard:hover h4 {
+  position: relative;
+}
+
+#projectsSection .projectCard:hover p {
+  display: block;
+  position: relative;
+  -webkit-animation: fadeEffect 2s;
+          animation: fadeEffect 2s;
+  transition: 2s;
+}
+
+#projectsSection .projectCard:hover a {
+  display: block;
+  position: relative;
+  -webkit-animation: fadeEffect 2s;
+          animation: fadeEffect 2s;
+  transition: 2s;
 }
 
 #projectsSection .bg1 {
@@ -11227,8 +11262,8 @@ a {
 }
 
 .fadein {
-  -webkit-animation: fadein 3s;
-          animation: fadein 3s;
+  -webkit-animation: fadein 2.5s;
+          animation: fadein 2.5s;
 }
 
 .heartbeat {
