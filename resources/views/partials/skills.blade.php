@@ -3,9 +3,9 @@ le classi assegnate sono provvisorie (es. perc, bg),
 servono a dare un idea grafica e statica del risultato finale.
 sarà da fare un refactoring in sede di coding degli effetti. -->
 
- <div id="skills">
+ <div id="skillsSection">
   <div class="container">
-    <div id="skillsTitle" class="animated">
+    <div id="skillsTitleAnimation" class="animated">
       <h2 class="beforeScroll" >A FEW NUMBERS</h2>
     </div>
     <!-- <h2>A FEW NUMBERS</h2> -->
@@ -114,7 +114,7 @@ sarà da fare un refactoring in sede di coding degli effetti. -->
 
     <!-- ::::::::: END SKILLS SECTION ::::::::: -->
 
-    <div id="projectsTitle" class="animated">
+    <div id="projectsTitleAnimation" class="animated">
       <h2 class="beforeScroll projectsTitle" >AND A FEW PROJECTS</h2>
     </div>
     <!-- <h2 class="projectsTitle">AND A FEW PROJECTS</h2> -->

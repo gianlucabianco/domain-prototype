@@ -1,5 +1,5 @@
-<div id="blog">
-  <div id="blogSection" class="container animated">
+<div id="blogSection">
+  <div id="blogAnimationHeight" class="container animated">
     <div class="beforeScroll">
       <h3>NOT ONLY CODE</h3>
       <p>

@@ -10782,7 +10782,7 @@ a {
   transition: 0.5s;
 }
 
-#header {
+#headerSection {
   width: 100%;
   height: 100vh;
   color: white;
@@ -10790,7 +10790,7 @@ a {
   position: relative;
 }
 
-#header .title {
+#headerSection .title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10800,11 +10800,11 @@ a {
   font-family: "Montserrat";
 }
 
-#header .title h1 span {
+#headerSection .title h1 span {
   font-weight: 400;
 }
 
-#header .arrowDown {
+#headerSection .arrowDown {
   position: absolute;
   bottom: 2.5%;
   left: 50%;
@@ -10812,19 +10812,19 @@ a {
   color: white;
 }
 
-#header a:hover {
+#headerSection a:hover {
   color: red;
   transition: 1s;
 }
 
-#about {
+#aboutSection {
   width: 100%;
   height: 100%;
   padding: 75px 0;
   background: white;
 }
 
-#merits {
+#meritsSection {
   display: flex;
   width: 100%;
   height: 100%;
@@ -10832,7 +10832,7 @@ a {
   background: black;
 }
 
-#merits a {
+#meritsSection a {
   width: 33.33%;
   padding-top: 33.33%;
   position: relative;
@@ -10840,7 +10840,7 @@ a {
   background: linear-gradient(to bottom left, #ffffff 0%, #000000 100%);
 }
 
-#merits a .meritCard {
+#meritsSection a .meritCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10857,24 +10857,24 @@ a {
   font-family: "Lato";
 }
 
-#merits a .meritCard p {
+#meritsSection a .meritCard p {
   display: none;
   margin-top: 25px;
   width: 75%;
 }
 
-#merits a .meritCard:hover {
+#meritsSection a .meritCard:hover {
   z-index: 0;
   background: black;
   opacity: 0.4;
   transition: 1s;
 }
 
-#merits a .meritCard:hover h3 {
+#meritsSection a .meritCard:hover h3 {
   position: relative;
 }
 
-#merits a .meritCard:hover p {
+#meritsSection a .meritCard:hover p {
   display: block;
   position: relative;
   z-index: 2;
@@ -10885,7 +10885,7 @@ a {
   transition: 2s;
 }
 
-#skills {
+#skillsSection {
   width: 100%;
   height: 1520px;
   padding: 75px;
@@ -10893,13 +10893,13 @@ a {
   font-family: "Lato";
 }
 
-#skills h2 {
+#skillsSection h2 {
   margin-bottom: 75px;
   font-size: 45px;
   text-align: center;
 }
 
-#skills .chart {
+#skillsSection .chart {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -10907,7 +10907,7 @@ a {
   height: 475px;
 }
 
-#skills .chart .column {
+#skillsSection .chart .column {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10918,46 +10918,46 @@ a {
           animation: skillBars 3s;
 }
 
-#skills .chart .column strong {
+#skillsSection .chart .column strong {
   padding-top: 15px;
   height: 50px;
   font-size: 12px;
 }
 
-#skills .chart .skill {
+#skillsSection .chart .skill {
   width: 60px;
   height: 350px;
 }
 
-#skills .chart .h35perc {
+#skillsSection .chart .h35perc {
   height: 125px;
 }
 
-#skills .chart .h45perc {
+#skillsSection .chart .h45perc {
   height: 150px;
 }
 
-#skills .chart .h55perc {
+#skillsSection .chart .h55perc {
   height: 175px;
 }
 
-#skills .chart .h75perc {
+#skillsSection .chart .h75perc {
   height: 275px;
 }
 
-#skills .chart .h80perc {
+#skillsSection .chart .h80perc {
   height: 300px;
 }
 
-#skills .chart .h85perc {
+#skillsSection .chart .h85perc {
   height: 325px;
 }
 
-#skills .chart .h90perc {
+#skillsSection .chart .h90perc {
   height: 350px;
 }
 
-#skills .projectsTitle {
+#skillsSection .projectsTitle {
   margin: 50px 0;
 }
 
@@ -10969,31 +10969,31 @@ a {
   background: lightgray;
 }
 
-#projects {
+#projectsSection {
   width: 100%;
   height: 100%;
   color: black;
 }
 
-#projects .projectCard {
+#projectsSection .projectCard {
   width: 100%;
   height: 320px;
   padding: 75px;
 }
 
-#projects .projectCard h4 {
+#projectsSection .projectCard h4 {
   margin: 0;
 }
 
-#projects .bg1 {
+#projectsSection .bg1 {
   background: #f4f4f4;
 }
 
-#projects .bg2 {
+#projectsSection .bg2 {
   background: #e2e2e2;
 }
 
-#projects .bg3 {
+#projectsSection .bg3 {
   background: #9b9b9b;
 }
 
@@ -11001,20 +11001,20 @@ a {
   margin: 0 0 35px 0;
 }
 
-#blog {
+#blogSection {
   width: 100%;
   height: 100%;
   padding: 120px 0;
   background: white;
 }
 
-#blog p {
+#blogSection p {
   width: 75%;
   margin: 0;
   padding: 25px 0;
 }
 
-#contact {
+#contactSection {
   padding: 75px 0;
   width: 100%;
   height: 100%;
@@ -11025,32 +11025,31 @@ a {
   background: black;
 }
 
-#contact .contactWrapper {
-  width: 40%;
+#contactSection .contactWrapper {
   height: 100%;
   margin: 0 auto;
 }
 
-#contact .contactWrapper h2 {
+#contactSection .contactWrapper h2 {
   font-size: 40px;
 }
 
-#contact .contactWrapper p {
+#contactSection .contactWrapper p {
   width: 75%;
   margin: 50px auto;
   font-size: 22px;
   color: white;
 }
 
-#contact .contactWrapper .form-group input,
-#contact .contactWrapper .form-group textarea {
+#contactSection .contactWrapper .form-group input,
+#contactSection .contactWrapper .form-group textarea {
   margin: 20px 0;
   border-radius: 0;
   border: 0;
   background: lightgray;
 }
 
-#footer {
+#footerSection {
   width: 100%;
   height: 70px;
   padding: 0 25px;
@@ -11060,7 +11059,7 @@ a {
   border-top: 0.5px solid lightgray;
 }
 
-#footer .footerWrapper {
+#footerSection .footerWrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11068,52 +11067,52 @@ a {
   height: 100%;
 }
 
-#footer .footerWrapper .footerLeft i {
+#footerSection .footerWrapper .footerLeft i {
   padding-left: 2.5px;
   font-size: 11px;
 }
 
-#footer .footerWrapper .footerLeft .fa-code {
+#footerSection .footerWrapper .footerLeft .fa-code {
   padding-right: 5px;
   color: lightgreen;
 }
 
-#footer .footerWrapper .footerLeft .fa-heart {
+#footerSection .footerWrapper .footerLeft .fa-heart {
   padding-left: 5px;
   color: red;
 }
 
-#footer .footerWrapper .footerLeft a {
+#footerSection .footerWrapper .footerLeft a {
   text-decoration: none;
   color: white;
 }
 
-#footer .footerWrapper .footerLeft a:hover {
+#footerSection .footerWrapper .footerLeft a:hover {
   transition: 0.5s;
   color: red;
 }
 
-#footer .footerWrapper .footerLeft span {
+#footerSection .footerWrapper .footerLeft span {
   padding-left: 5px;
   color: lightgray;
   font-weight: 600;
 }
 
-#footer .footerWrapper a {
+#footerSection .footerWrapper a {
   text-decoration: none;
 }
 
-#footer .footerWrapper a i {
+#footerSection .footerWrapper a i {
   font-size: 30px;
   color: lightgray;
 }
 
-#footer .footerWrapper a:hover i {
+#footerSection .footerWrapper a:hover i {
   transition: 0.5s;
   color: red;
 }
 
-#footer .footerCenter {
+#footerSection .footerCenter {
   position: absolute;
   bottom: 50px;
   left: 50%;
@@ -11122,7 +11121,7 @@ a {
   color: white;
 }
 
-#footer .footerCenter:hover {
+#footerSection .footerCenter:hover {
   transition: 0.5s;
   color: red;
 }
@@ -11227,26 +11226,102 @@ a {
   }
 }
 
-#aboutTitle {
+.fadein {
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+.heartbeat {
+  -webkit-animation: heartbeat 2.5s;
+          animation: heartbeat 2.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes heartbeat {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.75;
+  }
+
+  50% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.75;
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.75;
+  }
+
+  50% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.75;
+  }
+}
+
+#aboutTitleAnimation {
   height: 220px;
 }
 
-#aboutDescription {
+#aboutDescriptionAnimation {
   margin-top: 50px;
   height: 170px;
 }
 
-#skillsTitle {
+#skillsTitleAnimation {
   margin-top: 75px;
   height: 70px;
 }
 
-#projectsTitle {
+#projectsTitleAnimation {
   margin-top: 75px;
   height: 50px;
 }
 
-#blogSection {
+#blogAnimationHeight {
   height: 285px;
+}
+
+#contactAnimationHeight {
+  height: 710px;
 }
 

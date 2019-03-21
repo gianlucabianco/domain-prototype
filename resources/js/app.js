@@ -39,7 +39,7 @@ const app = new Vue({
 $("#toNextSectionArrow").click(function() {
 
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#about").offset().top
+        scrollTop: $("#aboutSection").offset().top
     }, 1500);
 
 });
@@ -48,7 +48,7 @@ $("#toNextSectionArrow").click(function() {
 $("#toHeaderArrow").click(function() {
 
   $([document.documentElement, document.body]).animate({
-      scrollTop: $("#header").offset().top
+      scrollTop: $("#headerSection").offset().top
   }, 3000);
 
 });
@@ -80,6 +80,17 @@ $(window).on('resize scroll', function() {
 
     if ($(this).isInViewport()) {
       $(this).children().addClass('column');
+    }
+
+  });
+
+});
+
+$(window).on('resize scroll', function() {
+  $('#footerSection').each(function() {
+
+    if ($(this).isInViewport()) {
+      $(this).children().addClass('fadein');
     }
 
   });

@@ -1,4 +1,4 @@
-<div id="footer">
+<div id="footerSection">
   <a id="toHeaderArrow" class="footerCenter" href="#">
     <i class="fas fa-chevron-up"></i>
   </a>
@@ -7,7 +7,7 @@
       <div class="footerLeftUp">
         <i class="fas fa-code"></i>
         with
-        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart heartbeat"></i>
       </div>
       <div class="footerLeftDown">
         <a href="http://localhost:8000">Gianluca Bianco</a>

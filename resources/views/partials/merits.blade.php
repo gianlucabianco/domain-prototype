@@ -2,7 +2,7 @@
 STRUTTURA DELLE CARD TEMPORANEA.
 REFACTORING IN SEDE DI CODING DEGLI EFFETTI -->
 
-<div id="merits">
+<div id="meritsSection">
 
   <a href="#">
     <div class="meritCard">

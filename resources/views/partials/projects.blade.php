@@ -1,4 +1,4 @@
-<div id="projects">
+<div id="projectsSection">
   <!-- ATTENZIONE:
   STRUTTURA DELLE CARD TEMPORANEA.
   REFACTORING IN SEDE DI CODING DEGLI EFFETTI -->
