@@ -10833,6 +10833,18 @@ a {
   background: black;
 }
 
+#meritsSection .cardColor1 {
+  background: linear-gradient(to bottom left, #F55A4E 0%, #000000 100%);
+}
+
+#meritsSection .cardColor2 {
+  background: linear-gradient(to bottom left, #FFA21A 0%, #000000 100%);
+}
+
+#meritsSection .cardColor3 {
+  background: linear-gradient(to bottom left, #2196F3 0%, #000000 100%);
+}
+
 #meritsSection a {
   width: 33.33%;
   padding-top: 33.33%;
