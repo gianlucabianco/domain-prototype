@@ -77,16 +77,16 @@
 }
 
 .bgDark {
-  background: darkgray;
+  background: $brandBlue;
 }
 
 .bgBright {
-  background: lightgray;
+  background: $brandCyan;
 }
 
 // :::::::::::::::
 
-// usare!
+// usare! PROVVISORIO
 @media screen and (max-width: 600px) {
  .chart {
    transform: rotate(90deg);

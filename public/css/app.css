@@ -10834,15 +10834,15 @@ a {
 }
 
 #meritsSection .cardColor1 {
-  background: linear-gradient(to bottom left, #F55A4E 0%, #000000 100%);
+  background: linear-gradient(to bottom left, #F55A4E 15%, #000000 120%);
 }
 
 #meritsSection .cardColor2 {
-  background: linear-gradient(to bottom left, #FFA21A 0%, #000000 100%);
+  background: linear-gradient(to bottom left, #FFA21A 15%, #000000 120%);
 }
 
 #meritsSection .cardColor3 {
-  background: linear-gradient(to bottom left, #2196F3 0%, #000000 100%);
+  background: linear-gradient(to bottom left, #2196F3 15%, #000000 120%);
 }
 
 #meritsSection a {
@@ -10975,11 +10975,11 @@ a {
 }
 
 .bgDark {
-  background: darkgray;
+  background: #2196F3;
 }
 
 .bgBright {
-  background: lightgray;
+  background: #00D3EE;
 }
 
 @media screen and (max-width: 600px) {
@@ -10999,6 +10999,8 @@ a {
   width: 100%;
   height: 320px;
   padding: 75px;
+  opacity: 0.75;
+  transition: 2s;
 }
 
 #projectsSection .projectCard h4 {
@@ -11014,9 +11016,8 @@ a {
 }
 
 #projectsSection .projectCard:hover {
-  opacity: 0.8;
-  background: red;
-  transition: 3s;
+  opacity: 1;
+  transition: 2s;
 }
 
 #projectsSection .projectCard:hover h4 {
@@ -11040,15 +11041,15 @@ a {
 }
 
 #projectsSection .bg1 {
-  background: #f4f4f4;
+  background: linear-gradient(to bottom left, #F55A4E 25%, #000000 130%);
 }
 
 #projectsSection .bg2 {
-  background: #e2e2e2;
+  background: linear-gradient(to bottom left, #FFA21A 25%, #000000 130%);
 }
 
 #projectsSection .bg3 {
-  background: #9b9b9b;
+  background: linear-gradient(to bottom left, #5CB860 25%, #000000 130%);
 }
 
 .projectRight p {

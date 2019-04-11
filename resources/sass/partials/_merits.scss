@@ -7,15 +7,15 @@
   background: black;
 
   .cardColor1 {
-    background: linear-gradient(to bottom left, $brandRed 0%, #000000 100%);
+    background: linear-gradient(to bottom left, $brandRed 15%, #000000 120%);
   }
 
   .cardColor2 {
-    background: linear-gradient(to bottom left, $brandYellow 0%, #000000 100%);
+    background: linear-gradient(to bottom left, $brandYellow 15%, #000000 120%);
   }
 
   .cardColor3 {
-    background: linear-gradient(to bottom left, $brandBlue 0%, #000000 100%);
+    background: linear-gradient(to bottom left, $brandBlue 15%, #000000 120%);
   }
 
   a {
