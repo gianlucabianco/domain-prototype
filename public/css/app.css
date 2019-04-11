@@ -10661,27 +10661,27 @@ a.text-dark:focus {
 }
 
 .blueDot {
-  fill: #2196F3;
+  fill: rgba(33, 150, 243, 0.5);
 }
 
 .grayDot {
-  fill: lightgray;
+  fill: rgba(211, 211, 211, 0.5);
 }
 
 .greenDot {
-  fill: #5CB860;
+  fill: rgba(92, 184, 96, 0.5);
 }
 
 .yellowDot {
-  fill: #FFA21A;
+  fill: rgba(255, 162, 26, 0.5);
 }
 
 .redDot {
-  fill: #F55A4E;
+  fill: rgba(245, 90, 78, 0.5);
 }
 
 .purpleDot {
-  fill: #9C27B0;
+  fill: rgba(156, 39, 176, 0.5);
 }
 
 svg {

@@ -22,6 +22,8 @@ $cyan: #6cb2eb;
 
 // :::::::::::: CUSTOM ::::::::::::
 
+// ::: COLORS :::
+// ::: brand colors :::
 $brandCyan: #00D3EE;
 $brandGreen: #5CB860;
 $brandYellow: #FFA21A;
@@ -30,8 +32,27 @@ $brandPurple: #9C27B0;
 $brandBlue: #2196F3;
 $brandGray: lightgray;
 
-// ::: proj colours :::
-$project1: #C4E7D4;
-$project2: #C4DACF;
-$project3:#B9C0DA;
-$projectHover: #998DA0;
+// ::: header animation colors :::
+$headerAnimationCyan: rgba(0, 211, 238,0.5);
+$headerAnimationGreen: rgba(92, 184, 96,0.5);
+$headerAnimationYellow: rgba(255, 162, 26,0.5);
+$headerAnimationRed: rgba(245, 90, 78,0.5);
+$headerAnimationPurple: rgba(156, 39, 176,0.5);
+$headerAnimationBlue: rgba(33, 150, 243,0.5);
+$headerAnimationGray: rgba(211,211,211, 0.5);
+
+// ::: trasp colors :::
+
+$transpCyan: rgba(0, 211, 238,0.6);
+$transpGreen: rgba(92, 184, 96,0.6);
+$transpYellow: rgba(255, 162, 26,0.6);
+$transpRed: rgba(245, 90, 78,0.6);
+$transpPurple: rgba(156, 39, 176,0.6);
+$transpBlue: rgba(33, 150, 243,0.6);
+$transpGray: lightgray;
+
+// ::: projects colors :::
+// $project1: #C4E7D4;
+// $project2: #C4DACF;
+// $project3:#B9C0DA;
+// $projectHover: #998DA0;
