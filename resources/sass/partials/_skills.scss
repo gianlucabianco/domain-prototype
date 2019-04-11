@@ -83,3 +83,12 @@
 .bgBright {
   background: lightgray;
 }
+
+// :::::::::::::::
+
+// usare!
+@media screen and (max-width: 600px) {
+ .chart {
+   transform: rotate(90deg);
+ }
+}

@@ -10661,27 +10661,27 @@ a.text-dark:focus {
 }
 
 .blueDot {
-  fill: rgba(255, 255, 255, 0.8);
+  fill: #2196F3;
 }
 
 .grayDot {
-  fill: rgba(255, 255, 255, 0.8);
+  fill: lightgray;
 }
 
 .greenDot {
-  fill: rgba(255, 255, 255, 0.8);
+  fill: #5CB860;
 }
 
 .yellowDot {
-  fill: rgba(255, 255, 255, 0.8);
+  fill: #FFA21A;
 }
 
 .redDot {
-  fill: rgba(255, 255, 255, 0.8);
+  fill: #F55A4E;
 }
 
 .purpleDot {
-  fill: rgba(255, 255, 255, 0.8);
+  fill: #9C27B0;
 }
 
 svg {
@@ -10968,6 +10968,13 @@ a {
 
 .bgBright {
   background: lightgray;
+}
+
+@media screen and (max-width: 600px) {
+  .chart {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
 }
 
 #projectsSection {
