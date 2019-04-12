@@ -37,25 +37,37 @@
 
     // ::::::::::: TEMPORANEE ::::::::
 
+    // .hardSkillsPddng {
+    //   padding-bottom: 320px;
+    // }
+
     .skill {
       width: 60px;
       height: 350px;
     }
 
-    .h35perc {
-      height: 125px;
+    .h15perc {
+      height: 52.5px;
     }
 
-    .h45perc {
-      height: 150px;
+    .h30perc {
+      height: 105px;
     }
 
-    .h55perc {
+    .h40perc {
+      height: 140px;
+    }
+
+    .h50perc {
       height: 175px;
     }
 
+    .h70perc {
+      height: 245px;
+    }
+
     .h75perc {
-      height: 275px;
+      height: 262.5px;
     }
 
     .h80perc {
@@ -83,6 +95,7 @@
 .bgBright {
   background: $brandCyan;
 }
+
 
 // :::::::::::::::
 

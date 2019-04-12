@@ -10766,6 +10766,10 @@ a {
   padding: 25px;
 }
 
+.hardSkillsPddng {
+  padding-bottom: 100px;
+}
+
 .myButton {
   width: 200px;
   padding: 10px 25px 12px 25px;
@@ -10820,9 +10824,17 @@ a {
 
 #aboutSection {
   width: 100%;
-  height: 100%;
+  height: 550px;
   padding: 75px 0;
   background: white;
+}
+
+#aboutSection h2 span {
+  font-size: 55px;
+}
+
+#aboutSection p {
+  font-size: 20px;
 }
 
 #meritsSection {
@@ -10942,20 +10954,28 @@ a {
   height: 350px;
 }
 
-#skillsSection .chart .h35perc {
-  height: 125px;
+#skillsSection .chart .h15perc {
+  height: 52.5px;
 }
 
-#skillsSection .chart .h45perc {
-  height: 150px;
+#skillsSection .chart .h30perc {
+  height: 105px;
 }
 
-#skillsSection .chart .h55perc {
+#skillsSection .chart .h40perc {
+  height: 140px;
+}
+
+#skillsSection .chart .h50perc {
   height: 175px;
 }
 
+#skillsSection .chart .h70perc {
+  height: 245px;
+}
+
 #skillsSection .chart .h75perc {
-  height: 275px;
+  height: 262.5px;
 }
 
 #skillsSection .chart .h80perc {
@@ -11354,12 +11374,11 @@ a {
 }
 
 #aboutTitleAnimation {
-  height: 220px;
+  height: 150px;
 }
 
 #aboutDescriptionAnimation {
-  margin-top: 50px;
-  height: 170px;
+  height: 240px;
 }
 
 #skillsTitleAnimation {

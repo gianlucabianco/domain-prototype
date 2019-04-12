@@ -2,15 +2,18 @@
   <div class="container">
     <div id="aboutTitleAnimation" class="row animated">
       <h2 class="beforeScroll">
-        <span class="mrgnLft100">Questo è</span >
-        <span class="mrgnLft100">un bel titolo</span >
-        <span class="mrgnLft100">(e questa è la sua terza riga)</span >
+        <span class="mrgnLft100">Front End Developer</span >
+        <span class="mrgnLft100">& Engineer</span >
       </h2>
     </div>
     <div id="aboutDescriptionAnimation" class="row animated">
       <div class="col-6 offset-6 mrgnTp50 beforeScroll">
-        <p>Questo è un <strong>bel</strong> paragrafo : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p>E questa è una <strong>frase ad effetto</strong> </p>
+        <p>
+          Ciao, sono uno sviluppatore web e lavoro nella zona di Bologna.<br>
+          Ho un background professionale non-convenzionale e sono diventato uno sviluppatore spinto dalla passione nei confronti della tecnologia e dai costanti stimoli offerti da questa professione.
+          <br><br>
+          Questi sono gli aspetti in cui concentro le mie energie:
+        </p>
       </div>
     </div>
   </div>

@@ -1,6 +1,17 @@
 #aboutSection {
   width: 100%;
-  height: 100%;
+  height: 550px;
   padding: 75px 0;
   background: white;
+
+  h2 {
+
+    span {
+      font-size: 55px;
+    }
+  }
+
+  p {
+    font-size: 20px;
+  }
 }

@@ -5,14 +5,17 @@
       <div class="row">
         <div class="projectLeft col-5 animated">
           <h4 class="beforeScroll">
-            <span>Questo è il titolo</span>
-            <span>di un progetto.</span>
+            <span>Crypto</span>
+            <span>Tracker</span>
           </h4>
         </div>
         <div class="projectRight col-7">
-          <p>Questa è la descrizione del paragrafo (che comprende un effetto di overlay).
+          <p>
+            Web app di analisi delle principali 20 criptovalute per capitalizzazione di mercato.
             <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            L'utente può consultare/comparare dati in maniera istantanea, creare un proprio portfolio o attivare notifiche automatiche secondo le sue preferenze.
+            <br>
+            <strong>#Vue.js #Laravel #SelfHostedAPI #ThirdPartyAPI.</strong>
           </p>
           <a href="#" class="myButton">Vai al progetto</a>
         </div>
@@ -25,14 +28,15 @@
       <div class="row">
         <div class="projectLeft col-5 animated">
           <h4 class="beforeScroll">
-            <span>Questo è il titolo</span>
-            <span>di un progetto.</span>
+            <span>Movie</span>
+            <span>Search</span>
           </h4>
         </div>
         <div class="projectRight col-7">
-          <p>Questa è la descrizione del paragrafo (che comprende un effetto di overlay).
+          <p>
+            Web app per la ricerca di informazioni riguardo a Film o Serie Televisive.
             <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <strong>#Javascript #JQuery #Ajax #ThirdPartyApi.</strong>
           </p>
           <a href="#" class="myButton">Vai al progetto</a>
         </div>
@@ -45,14 +49,15 @@
       <div class="row">
         <div class="projectLeft col-5 animated">
           <h4 class="beforeScroll">
-            <span>Questo è il titolo</span>
-            <span>di un progetto.</span>
+            <span>Spotify</span>
+            <span>(replica)</span>
           </h4>
         </div>
         <div class="projectRight col-7">
-          <p>Questa è la descrizione del paragrafo (che comprende un effetto di overlay).
+          <p>
+            Replica statica scritta utilizzando esclusivamente markup e formattazione.
             <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <strong>#HTML #CSS.</strong>
           </p>
           <a href="#" class="myButton">Vai al progetto</a>
         </div>

@@ -1,33 +1,39 @@
-
 <div id="meritsSection">
-
   <a href="#" class="cardColor1">
     <div class="meritCard">
       <h3>
-        <span>Questo è</span>
-        <span>un titolo</span>
+        <span>Qualità</span>
+        <span>del codice</span>
       </h3>
-      <p>Questa è la descrizione del paragrafo (che comprende un effetto di overlay). Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore dolore dolore dolore dolore ...</p>
+      <p>
+        Uno sforzo in più oggi per evitare un bug domani.
+        <br>
+        Mantenendo il focus sulla creazione di applicazioni veloci, responsive e dinamiche, mi piace porre particolare attenzione nel produrre codice leggibile, scalabile e manutenibile.
+      </p>
     </div>
   </a>
   <a href="#" class="cardColor2">
     <div class="meritCard">
       <h3>
-        <span>Questo è</span>
-        <span>un titolo</span>
+        <span>Le persone</span>
+        <span>prima di tutto</span>
       </h3>
-      <p>Questa è la descrizione del paragrafo (che comprende un effetto di overlay). Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore dolore dolore dolore dolore ...</p>
+      <p>
+        Che si tratti del Cliente o del Team di sviluppo, le mie priorità sono la trasparenza e la comunicazione.
+        <br>
+        Credo che la qualità del lavoro si basi sulla condivisione delle esperienze e nella costruzione di rapporti solidi e duraturi basati sulla soddisfazione reciproca.
+      </p>
     </div>
   </a>
   <a href="#" class="cardColor3">
     <div class="meritCard">
       <h3>
-        <span>Questo è</span>
-        <span>un titolo</span>
+        <span>Apprendimento</span>
+        <span>costante</span>
       </h3>
-      <p>Questa è la descrizione del paragrafo (che comprende un effetto di overlay). Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore dolore dolore dolore dolore ...</p>
+      <p>
+        Curioso per natura e consapevole della velocità con la quale avanza la rivoluzione digitale, dedico costantemente energia all'approfondimento delle nozioni pregresse e allo studio di nuove tecnologie.
+      </p>
     </div>
   </a>
-
-
 </div>
