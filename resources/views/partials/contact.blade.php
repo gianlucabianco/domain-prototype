@@ -2,9 +2,9 @@
   <div id="contactAnimationHeight" class="container animated">
 
     <div class="contactWrapper beforeScroll">
-      <h2>I CAN HELP</h2>
+      <h2>POSSO AIUTARE</h2>
       <p>
-        If you have a project that you care to get started, think my help could be useful with something or simply would like to say hello, please drop me a line.
+        Se hai in mente di avviare un progetto, pensi che il mio aiuto ti possa essere di qualche utilità o più semplicemente vuoi solo lasciarmi un saluto, ti prego di scrivimi due righe.
       </p>
       <div class="form-group">
         <input type="text" name="contactName" class="form-control" placeholder="Nome">

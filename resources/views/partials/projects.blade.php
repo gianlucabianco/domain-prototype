@@ -57,7 +57,7 @@
           <p>
             Replica statica scritta utilizzando esclusivamente markup e formattazione.
             <br>
-            <strong>#HTML #CSS.</strong>
+            <strong>#just #HTML #CSS #challenge.</strong>
           </p>
           <a href="#" class="myButton">Vai al progetto</a>
         </div>

@@ -54,7 +54,7 @@ sarà da fare un refactoring quando si lavora alla parte responsive. -->
         <div class="beforeScroll">
           <h4>HARD SKILLS</h4>
           <p>Non solo Front-End.</p>
-          <p>Ho maturato esperienza anche in campo Back-End, sperimentando nel mezzo le potenzialità dei sitemi a componenti.</p>
+          <p>Ho maturato esperienza anche in campo Back-End (LAMP, CRUD, MVC pattern), sperimentando nel mezzo le potenzialità dei sitemi a componenti (sui quali al momento sto concentrando le mie energie).</p>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@ sarà da fare un refactoring quando si lavora alla parte responsive. -->
     <!-- ::::::::: END SKILLS SECTION ::::::::: -->
 
     <div id="projectsTitleAnimation" class="animated">
-      <h2 class="beforeScroll projectsTitle" >E QUALCHE PROGETTO</h2>
+      <h2 class="beforeScroll projectsTitle" >QUALCHE PROGETTO</h2>
     </div>
 
   </div>
