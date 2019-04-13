@@ -9,7 +9,7 @@
         <br>
         E mi piace parlarne.
       </p>
-      <a href="#" class="myButton">Vai al blog</a>
+      <a href="#blogSection" class="myButton tempAlert">Vai al blog</a>
     </div>
   </div>
 </div>

@@ -17,7 +17,7 @@
             <br>
             <strong>#Vue.js #Laravel #SelfHostedAPI #ThirdPartyAPI.</strong>
           </p>
-          <a href="#" class="myButton">Vai al progetto</a>
+          <a href="#projectsSection" class="myButton tempAlert">Vai al progetto</a>
         </div>
       </div>
     </div>
@@ -38,7 +38,7 @@
             <br>
             <strong>#Javascript #JQuery #Ajax #ThirdPartyApi.</strong>
           </p>
-          <a href="#" class="myButton">Vai al progetto</a>
+          <a href="#projectsSection" class="myButton tempAlert">Vai al progetto</a>
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@
             <br>
             <strong>#just #HTML #CSS #challenge.</strong>
           </p>
-          <a href="#" class="myButton">Vai al progetto</a>
+          <a href="#projectsSection" class="myButton tempAlert">Vai al progetto</a>
         </div>
       </div>
     </div>
