@@ -4,7 +4,7 @@
     <div class="contactWrapper beforeScroll">
       <h2>POSSO AIUTARE</h2>
       <p>
-        Se hai in mente di avviare un progetto, pensi che il mio aiuto ti possa essere di qualche utilità o più semplicemente vuoi solo lasciarmi un saluto, ti prego di scrivimi due righe.
+        Se hai in mente di avviare un progetto, pensi che il mio aiuto ti possa essere di qualche utilità o più semplicemente vuoi solo lasciarmi un saluto, ti prego di scrivermi due righe.
       </p>
       <div class="form-group">
         <input type="text" name="contactName" class="form-control" placeholder="Nome">

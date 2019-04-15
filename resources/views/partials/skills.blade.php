@@ -12,7 +12,7 @@ sarà da fare un refactoring quando si lavora alla parte responsive. -->
     <!-- ::::::::: HARD SKILLS ::::::::: -->
 
     <div class="row">
-      <div class="col-6 pddng25 hardSkillsPddng chart">
+      <div class="col-6 chart hardSkillsPddng">
 
         <div class="beforeScroll">
           <span>70%</span>
@@ -50,7 +50,7 @@ sarà da fare un refactoring quando si lavora alla parte responsive. -->
         </div>
 
       </div>
-      <div class="col-5 offset-1 pddng25 animated">
+      <div class="col-5 offset-1 animated">
         <div class="beforeScroll">
           <h4>HARD SKILLS</h4>
           <p>Non solo Front-End.</p>
@@ -62,14 +62,14 @@ sarà da fare un refactoring quando si lavora alla parte responsive. -->
 <!-- ::::::::: SOFT SKILLS ::::::::: -->
 
     <div class="row">
-      <div class="col-5 pddng25 animated">
+      <div class="col-5 animated">
         <div class="beforeScroll">
           <h4>SOFT SKILLS</h4>
           <p>Ho accumulato circa 10 anni di esperienza come Ingegnere, di cui una buona parte ricoprendo una posizione di leadership.</p>
           <p>Posso offrire molto più che semplice codice.</p>
         </div>
       </div>
-      <div class="col-6 offset-1 pddng25 chart">
+      <div class="col-6 offset-1 chart">
 
         <div class="beforeScroll">
           <span>85%</span>
