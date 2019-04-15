@@ -1,7 +1,7 @@
 <!-- attenzione:
 le classi assegnate sono provvisorie (es. perc, bg),
 servono a dare un idea grafica e statica del risultato finale.
-sarà da fare un refactoring quando si lavora alla parte responsive. -->
+Per il momento il focus è stato produrre un MVP, in seconda battuta si produrranno dei componenti con un template engine. -->
 
  <div id="skillsSection">
   <div class="container">
