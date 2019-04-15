@@ -1,5 +1,6 @@
 <div id="projectsSection">
 
+  <!-- Nota: in questa sede il focus è produrre un MVP. Una volta andati in produzione, generare le card con un template Vue, in modo da poter espandere la sezione progetti a piacere (se i progetti esposti saranno troppi, bisognerà modificare il tipo di visualizzazione - card quadrate o altro, da valutare) -->
   <div class="projectCard bg1">
     <div class="container">
       <div class="row">
@@ -17,6 +18,7 @@
             <br>
             <strong>#Vue.js #Laravel #SelfHostedAPI #ThirdPartyAPI.</strong>
           </p>
+          <!-- rimuovere ".tempAlert" appena si mette in produzione il progetto di riferimento: -->
           <a href="#projectsSection" class="myButton tempAlert">Vai al progetto</a>
         </div>
       </div>
@@ -28,8 +30,8 @@
       <div class="row">
         <div class="projectLeft col-5 animated">
           <h4 class="beforeScroll">
-            <span>Movie</span>
-            <span>Search</span>
+            <span>Show</span>
+            <span>Searcher</span>
           </h4>
         </div>
         <div class="projectRight col-7">
@@ -38,6 +40,7 @@
             <br>
             <strong>#Javascript #JQuery #Ajax #ThirdPartyApi.</strong>
           </p>
+          <!-- rimuovere ".tempAlert" appena si mette in produzione il progetto di riferimento: -->
           <a href="#projectsSection" class="myButton tempAlert">Vai al progetto</a>
         </div>
       </div>
@@ -59,6 +62,7 @@
             <br>
             <strong>#just #HTML #CSS #challenge.</strong>
           </p>
+          <!-- rimuovere ".tempAlert" appena si mette in produzione il progetto di riferimento: -->
           <a href="#projectsSection" class="myButton tempAlert">Vai al progetto</a>
         </div>
       </div>

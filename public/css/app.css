@@ -10754,22 +10754,6 @@ a {
   text-decoration: none;
 }
 
-.mrgnTp50 {
-  margin-top: 50px;
-}
-
-.mrgnLft100 {
-  margin-left: 100px;
-}
-
-.pddng25 {
-  padding: 25px;
-}
-
-.hardSkillsPddng {
-  padding-bottom: 100px;
-}
-
 .myButton {
   width: 200px;
   padding: 10px 25px 12px 25px;
@@ -10830,6 +10814,7 @@ a {
 }
 
 #aboutSection h2 span {
+  margin-left: 100px;
   font-size: 55px;
 }
 
@@ -10842,7 +10827,6 @@ a {
   width: 100%;
   height: 100%;
   color: white;
-  background: black;
 }
 
 #meritsSection .cardColor1 {
@@ -10861,7 +10845,6 @@ a {
   width: 33.33%;
   padding-top: 33.33%;
   position: relative;
-  color: white;
   background: linear-gradient(to bottom left, #ffffff 0%, #000000 100%);
 }
 
@@ -10879,13 +10862,12 @@ a {
   bottom: 0;
   right: 0;
   text-align: center;
-  font-family: "Lato";
 }
 
 #meritsSection a .meritCard p {
   display: none;
   margin-top: 25px;
-  width: 75%;
+  width: 95%;
 }
 
 #meritsSection a .meritCard:hover {
@@ -10902,7 +10884,6 @@ a {
 #meritsSection a .meritCard:hover p {
   display: block;
   position: relative;
-  z-index: 2;
   color: white;
   opacity: 1;
   -webkit-animation: fadeEffect 2s;
@@ -11012,7 +10993,6 @@ a {
 #projectsSection {
   width: 100%;
   height: 100%;
-  color: black;
 }
 
 #projectsSection .projectCard {
@@ -11038,10 +11018,6 @@ a {
 #projectsSection .projectCard:hover {
   opacity: 1;
   transition: 2s;
-}
-
-#projectsSection .projectCard:hover h4 {
-  position: relative;
 }
 
 #projectsSection .projectCard:hover p {
@@ -11094,7 +11070,6 @@ a {
   width: 100%;
   height: 100%;
   color: black;
-  font-family: "Lato";
   text-align: center;
   color: white;
   background: black;
@@ -11122,6 +11097,13 @@ a {
   border-radius: 0;
   border: 0;
   background: lightgray;
+  transition: 1s;
+}
+
+#contactSection .contactWrapper .form-group input:hover {
+  color: black;
+  background: rgba(211, 211, 211, 0.5);
+  transition: 1s;
 }
 
 #footerSection {
@@ -11159,6 +11141,7 @@ a {
 #footerSection .footerWrapper .footerLeft a {
   text-decoration: none;
   color: white;
+  transition: 0.5s;
 }
 
 #footerSection .footerWrapper .footerLeft a:hover {
@@ -11179,10 +11162,11 @@ a {
 #footerSection .footerWrapper a i {
   font-size: 30px;
   color: lightgray;
+  transition: 1s;
 }
 
 #footerSection .footerWrapper a:hover i {
-  transition: 0.5s;
+  transition: 1s;
   color: red;
 }
 
@@ -11193,10 +11177,11 @@ a {
   font-size: 25px;
   text-decoration: none;
   color: white;
+  transition: 1s;
 }
 
 #footerSection .footerCenter:hover {
-  transition: 0.5s;
+  transition: 1s;
   color: red;
 }
 

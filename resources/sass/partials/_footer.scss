@@ -5,7 +5,6 @@
   color: white;
   background: black;
   position: relative;
-  // border-top: 0.5px solid lightgray; //temp
 
 
   .footerWrapper {
@@ -35,6 +34,7 @@
       a {
         text-decoration: none;
         color: white;
+        transition: 0.5s;
       }
 
       a:hover {
@@ -49,17 +49,19 @@
       }
     }
 
+    //icons rules
     a {
       text-decoration: none;
       i {
         font-size: 30px;
         color: lightgray;
+        transition: 1s;
       }
     }
 
     a:hover {
       i {
-        transition: 0.5s;
+        transition: 1s;
         color: red;
       }
     }
@@ -72,10 +74,11 @@
     font-size: 25px;
     text-decoration: none;
     color: white;
+    transition: 1s;
   }
 
   .footerCenter:hover {
-    transition: 0.5s;
+    transition: 1s;
     color: red;
   }
 

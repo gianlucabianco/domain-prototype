@@ -56,7 +56,7 @@ $("#toHeaderArrow").click(function() {
 // unavailable function: temporary message
 $(".tempAlert").click(function() {
 
-  alert('Ciao, il sito è ancora in fase di sviluppo e purtroppo questa funzione non è ancora stata implementata.\nMi farebbe piacere se volessi restare aggiornato sullo stato di avanzamento dei lavori, nel caso, ti prego di scrivermi utilizzando il form di contatto qui sotto.\nTi terrò aggiornato con piacere!');
+  alert('Ciao, il sito è ancora in fase di sviluppo e purtroppo questa funzione non è ancora stata implementata.\nMi farebbe piacere se volessi restare aggiornato sullo stato di avanzamento dei lavori, nel caso, ti prego di scrivermi all\'indirizzo ciao@gianlucabianco.dev .\nTi terrò informato con piacere!');
 
 });
 

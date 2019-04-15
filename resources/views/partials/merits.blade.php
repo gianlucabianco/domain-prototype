@@ -1,5 +1,5 @@
 <div id="meritsSection">
-  <a href="#" class="cardColor1">
+  <a class="cardColor1">
     <div class="meritCard">
       <h3>
         <span>Qualità</span>
@@ -12,7 +12,7 @@
       </p>
     </div>
   </a>
-  <a href="#" class="cardColor2">
+  <a class="cardColor2">
     <div class="meritCard">
       <h3>
         <span>Le persone</span>
@@ -25,7 +25,7 @@
       </p>
     </div>
   </a>
-  <a href="#" class="cardColor3">
+  <a class="cardColor3">
     <div class="meritCard">
       <h3>
         <span>Apprendimento</span>

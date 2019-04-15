@@ -2,7 +2,6 @@
 #projectsSection {
   width: 100%;
   height: 100%;
-  color: black;
 
     .projectCard {
       width: 100%;
@@ -29,10 +28,6 @@
       opacity: 1;
       transition: 2s;
 
-      h4 {
-        position: relative;
-      }
-
       p {
         display: block;
         position: relative;
@@ -49,20 +44,17 @@
 
     }
     // ::: temp :::
-
+    // variabilizzare post-produzione, quando si implementerà un template lato HTML
     .bg1 {
       background: linear-gradient(to bottom left, $brandRed 25%, #000000 130%);
-      // background: $project1;
     }
 
     .bg2 {
       background: linear-gradient(to bottom left, $brandYellow 25%, #000000 130%);
-      // background: $project2;
     }
 
     .bg3 {
       background: linear-gradient(to bottom left, $brandGreen 25%, #000000 130%);
-      // background: $project3;
     }
 }
 
