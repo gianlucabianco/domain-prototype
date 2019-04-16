@@ -10661,27 +10661,27 @@ a.text-dark:focus {
 }
 
 .blueDot {
-  fill: rgba(33, 150, 243, 0.5);
+  fill: rgba(33, 150, 243, 0.7);
 }
 
 .grayDot {
-  fill: rgba(211, 211, 211, 0.5);
+  fill: rgba(211, 211, 211, 0.7);
 }
 
 .greenDot {
-  fill: rgba(92, 184, 96, 0.5);
+  fill: rgba(92, 184, 96, 0.7);
 }
 
 .yellowDot {
-  fill: rgba(255, 162, 26, 0.5);
+  fill: rgba(255, 162, 26, 0.7);
 }
 
 .redDot {
-  fill: rgba(245, 90, 78, 0.5);
+  fill: rgba(245, 90, 78, 0.7);
 }
 
 .purpleDot {
-  fill: rgba(156, 39, 176, 0.5);
+  fill: rgba(156, 39, 176, 0.7);
 }
 
 svg {
@@ -10814,13 +10814,127 @@ a {
   background: white;
 }
 
-#aboutSection h2 span {
+#aboutSection #aboutTitleAnimation {
+  min-height: 150px;
+}
+
+#aboutSection #aboutTitleAnimation h2 span {
   margin-left: 100px;
   font-size: 55px;
 }
 
-#aboutSection p {
+#aboutSection #aboutDescriptionAnimation {
+  height: 240px;
+}
+
+#aboutSection #aboutDescriptionAnimation p {
+  width: 550px;
+  float: right;
   font-size: 20px;
+}
+
+@media screen and (max-width: 360px) {
+  #aboutSection {
+    height: 600px;
+    padding: 10px;
+    text-align: center;
+    background: red;
+  }
+
+  #aboutSection #aboutTitleAnimation h2 {
+    padding: 25px 0 25px 0;
+  }
+
+  #aboutSection #aboutTitleAnimation h2 span {
+    margin: 0;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #aboutSection #aboutDescriptionAnimation p {
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 5px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 767px) {
+  #aboutSection {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  #aboutSection #aboutTitleAnimation {
+    height: 200px;
+    margin: 0;
+  }
+
+  #aboutSection #aboutTitleAnimation h2 {
+    height: 100px;
+    margin: 50px 0;
+  }
+
+  #aboutSection #aboutTitleAnimation h2 span {
+    margin: 0;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #aboutSection #aboutDescriptionAnimation {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #aboutSection #aboutDescriptionAnimation p {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #aboutSection {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  #aboutSection #aboutTitleAnimation {
+    height: 200px;
+    margin: 0;
+  }
+
+  #aboutSection #aboutTitleAnimation h2 {
+    height: 100px;
+    margin: 50px 0;
+  }
+
+  #aboutSection #aboutTitleAnimation h2 span {
+    margin: 0;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #aboutSection #aboutDescriptionAnimation {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #aboutSection #aboutDescriptionAnimation p {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    padding: 0;
+    font-size: 20px;
+  }
 }
 
 #meritsSection {
@@ -11107,7 +11221,7 @@ a {
 
 #contactSection .contactWrapper .form-group input:hover {
   color: black;
-  background: rgba(211, 211, 211, 0.5);
+  background: rgba(211, 211, 211, 0.7);
   transition: 1s;
 }
 
@@ -11360,14 +11474,6 @@ a {
             transform: scale(1);
     opacity: 0.75;
   }
-}
-
-#aboutTitleAnimation {
-  height: 150px;
-}
-
-#aboutDescriptionAnimation {
-  height: 240px;
 }
 
 #skillsTitleAnimation {

@@ -95,7 +95,7 @@ class Particle {
   }}
 
 
-const data = [purpleDot, grayDot, greenDot, blueDot, redDot, yellowDot];
+// const data = [purpleDot, grayDot, greenDot, blueDot, redDot, yellowDot];
 
 let isPaused = false;
 window.onblur = function () {

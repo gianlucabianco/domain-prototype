@@ -33,13 +33,13 @@ $brandBlue: #2196F3;
 $brandGray: lightgray;
 
 // ::: header animation colors :::
-$headerAnimationCyan: rgba(0, 211, 238,0.5);
-$headerAnimationGreen: rgba(92, 184, 96,0.5);
-$headerAnimationYellow: rgba(255, 162, 26,0.5);
-$headerAnimationRed: rgba(245, 90, 78,0.5);
-$headerAnimationPurple: rgba(156, 39, 176,0.5);
-$headerAnimationBlue: rgba(33, 150, 243,0.5);
-$headerAnimationGray: rgba(211,211,211, 0.5);
+$headerAnimationCyan: rgba(0, 211, 238,0.7);
+$headerAnimationGreen: rgba(92, 184, 96,0.7);
+$headerAnimationYellow: rgba(255, 162, 26,0.7);
+$headerAnimationRed: rgba(245, 90, 78,0.7);
+$headerAnimationPurple: rgba(156, 39, 176,0.7);
+$headerAnimationBlue: rgba(33, 150, 243,0.7);
+$headerAnimationGray: rgba(211,211,211, 0.7);
 
 // ::: trasp colors :::
 
@@ -58,6 +58,12 @@ $transpGray: lightgray;
 // $projectHover: #998DA0;
 
 // temp:
+
+// MOBILE - 360px
+// TABLET - 360px - 768px
+// LAPTOP - 768px - 1024XP
+// DESKTOP 1024XP
+
 
   // :::::::: MEDIA QUERIES :::::::
 //

@@ -7,7 +7,7 @@
       </h2>
     </div>
     <div id="aboutDescriptionAnimation" class="row animated">
-      <div class="col-6 offset-6 beforeScroll">
+      <div class="beforeScroll">
         <p>
           Ciao, sono uno sviluppatore web e lavoro nella zona di Bologna.<br>
           Ho un background professionale non-convenzionale e sono diventato uno sviluppatore spinto dalla passione nei confronti della tecnologia e dai costanti stimoli offerti da questa professione.
